@@ -80,7 +80,7 @@ function openResultsPage(results) {
       background: rgb(4, 19, 42);
       background: linear-gradient(90deg, rgba(4, 19, 42, 1) 0%, rgba(0, 0, 0, 0.95) 50%, rgba(4, 19, 42, 1) 100%);
       display: flex;
-      justify-content: space-around;
+    
     }
     header {
       background: var(--color-secondary);
