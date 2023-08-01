@@ -212,15 +212,12 @@ function openResultsPage(results) {
               const releaseYear = document.createElement('p');
               releaseYear.textContent = 'Release Year: ' + movie.Year;
 
-             /* const viewDetailsButton = document.createElement('button');
-    viewDetailsButton.textContent = 'View Details';
-    viewDetailsButton.onclick = function() {
-      displayMovieDetails(movie.imdbID); */
+             
 
               movieCard.appendChild(title);
               movieCard.appendChild(poster);
               movieCard.appendChild(releaseYear);
-              /*movieCard.appendChild(viewDetailsButton);*/
+              
 
               resultsContainer.appendChild(movieCard);
             });
